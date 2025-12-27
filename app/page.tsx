@@ -3,6 +3,7 @@
 import { Post } from "@/types";
 import PostCard from "@/components/PostCard";
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 export default function HomePage() {
   const [posts, setPosts] = useState<Post[]>([]);
@@ -69,12 +70,18 @@ export default function HomePage() {
               Your voice for progress, development, and prosperity in Akhnoor
             </p>
             <div className="flex gap-4">
-              <button className="bg-primary-600 hover:bg-primary-700 text-white px-8 py-3 rounded-lg font-semibold shadow-lg transition">
+              <Link
+                href="/about"
+                className="bg-primary-600 hover:bg-primary-700 text-white px-8 py-3 rounded-lg font-semibold shadow-lg transition"
+              >
                 Learn More
-              </button>
-              <button className="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white border-2 border-white/50 px-8 py-3 rounded-lg font-semibold transition">
+              </Link>
+              <Link
+                href="/about#join-the-movement"
+                className="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white border-2 border-white/50 px-8 py-3 rounded-lg font-semibold transition"
+              >
                 Get Involved
-              </button>
+              </Link>
             </div>
           </div>
         </div>

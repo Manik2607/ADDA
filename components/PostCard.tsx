@@ -13,7 +13,7 @@ export default function PostCard({ post }: PostCardProps) {
 
   return (
     <article className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-      <div className="relative h-64 bg-gray-200">
+      <div className="relative w-full aspect-[4/3] bg-gray-200">
         {post.mediaType === "image" ? (
           <Image
             src={post.mediaUrl}
