@@ -92,10 +92,10 @@ export default function RootLayout({
                     <li className="flex items-start gap-2">
                       <span className="text-primary-400 mt-1">📧</span>
                       <a
-                        href="mailto:Akhnooradda2026@gmail.com"
+                        href="mailto:Akhnoordistrictdemand@gmail.com"
                         className="hover:text-primary-400 transition break-all"
                       >
-                        Akhnooradda2026@gmail.com
+                        Akhnoordistrictdemand@gmail.com
                       </a>
                     </li>
                     <li className="flex items-start gap-2">

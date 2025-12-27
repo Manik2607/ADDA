@@ -260,7 +260,7 @@ export default function AboutPage() {
 
             <div className="grid md:grid-cols-3 gap-8">
               <a
-                href="mailto:Akhnooradda2026@gmail.com"
+                href="mailto:Akhnoordistrictdemand@gmail.com"
                 className="group bg-gradient-to-br from-primary-50 to-primary-100 hover:from-primary-100 hover:to-primary-200 rounded-xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
               >
                 <FaEnvelope className="text-5xl text-primary-600 mx-auto mb-4 group-hover:scale-110 transition-transform" />
@@ -268,7 +268,7 @@ export default function AboutPage() {
                   Email Us
                 </h3>
                 <p className="text-gray-600 break-all">
-                  Akhnooradda2026@gmail.com
+                  Akhnoordistrictdemand@gmail.com
                 </p>
               </a>
 
