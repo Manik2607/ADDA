@@ -161,14 +161,14 @@ export default function HomePage() {
                   connected with us for the latest updates, news, and events.
                 </p>
               </div>
-              <div className="bg-gradient-to-br from-primary-50 to-accent-50 p-12 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-6xl mb-4">🏛️</div>
-                  <h3 className="text-2xl font-bold text-navy-800 mb-2">
-                    Serving Akhnoor
-                  </h3>
-                  <p className="text-gray-600">Building a better tomorrow</p>
-                </div>
+              <div
+                className="bg-gradient-to-br from-primary-50 to-accent-50 p-12 flex items-center justify-center relative overflow-hidden"
+                style={{
+                  backgroundImage: "url(/assets/HeroImage.png)",
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                }}
+              >
               </div>
             </div>
           </div>
