@@ -12,7 +12,7 @@ export default function HomePage() {
 
   const heroImages = [
     "https://www.dailyexcelsior.com/wp-content/uploads/2022/02/1-13.jpg",
-    "https://www.hoteldekho.com/storage/img/tourattraction/1652078007ankhhor%20fort%20jammu.jpg",
+    "/assets/HeroImage.png",
   ];
 
   useEffect(() => {
@@ -194,9 +194,9 @@ export default function HomePage() {
               </p>
             </div>
           ) : (
-            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-              {posts.map((post) => (
-                <PostCard key={post.id} post={post} />
+            <div className="flex flex-col gap-0">
+              {posts.map((post, index) => (
+                <PostCard key={post.id} post={post} index={index} />
               ))}
             </div>
           )}

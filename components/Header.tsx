@@ -22,11 +22,11 @@ export default function Header() {
             onClick={closeMenu}
           >
             <img
-              src="/ADDA.png"
+              src="assets/image.png"
               alt="ADDA Logo"
               className="w-12 h-12 md:w-16 md:h-16 object-contain"
             />
-            <span className="bg-gradient-to-r from-[#1e3a8a] via-[#2563eb] to-[#059669] bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-[#ff8000] via-[#00398e] to-[#02c450] bg-clip-text text-transparent">
               ADDA
             </span>
           </Link>
